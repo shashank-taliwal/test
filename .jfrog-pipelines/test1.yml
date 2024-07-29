@@ -1,0 +1,27 @@
+resources:
+  - name: resource1
+    type: PropertyBag
+    configuration:
+      name: 'shashank'
+
+pipelines:
+  - name: pipe3
+    steps:
+      - name: step1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: resource1
+        execution:
+          onExecute:
+            - echo "Hello, World!"
+  - name: pipe4
+    steps:
+      - name: step2
+        type: Bash
+        configuration:
+          inputResources:
+            - name: resource1
+        execution:
+          onExecute:
+            - echo "Hello, World!"
