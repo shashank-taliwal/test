@@ -15,16 +15,16 @@ pipelines:
             - cat big.txt
             - cat big.txt
             - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
-            # - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
             # - cat big.txt
             # - cat big.txt
             # - cat big.txt
