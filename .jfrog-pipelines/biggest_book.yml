@@ -1,0 +1,87 @@
+pipelines:
+  - name: biggest_book
+    steps:
+      - name: step1
+        type: Bash
+        configuration:
+          timeoutSeconds: 14400 
+        execution:
+          onExecute:
+            - echo 'step1'
+            - echo $step_name $step_node_id
+            - wget https://norvig.com/big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
+            - cat big.txt
